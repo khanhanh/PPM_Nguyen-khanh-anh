@@ -22,7 +22,7 @@ namespace VietJackCsharp
 
             if (int.TryParse(strA, out A) == false || int.TryParse(strB, out B) == false)
             {
-                Console.WriteLine("A bang B");
+                Console.WriteLine("du lieu nhap sai");
             }
             
              
