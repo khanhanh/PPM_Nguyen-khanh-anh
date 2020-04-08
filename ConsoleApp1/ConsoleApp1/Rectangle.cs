@@ -22,7 +22,7 @@ namespace ConsoleApp1
             return length * width;
         }
 
-     
+        //phuong thuc
         public void Display()
         {
             Console.WriteLine("Chieu dai: {0}", length);
