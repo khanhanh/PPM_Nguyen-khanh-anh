@@ -9,19 +9,39 @@ namespace VietJackCsharp
             Console.WriteLine("Lenh if else trong C#");
             Console.WriteLine("-------------------------------");
 
+            int A, B;
+         string strA, strB;
           
-            int a = 10;
             
-            if (a > 20)
+
+            Console.Write("moi ban nhap A:" );
+            strA = Console.ReadLine();
+
+            Console.Write("moi ban nhap B:");
+            strB = Console.ReadLine();
+
+            if (int.TryParse(strA, out A) == false || int.TryParse(strB, out B) == false)
             {
+                Console.WriteLine("A bang B");
+            }
+            
              
-                Console.WriteLine("a lớn hon 20");
+               
+           
+            else if(A==B)
+            {
+                Console.WriteLine("A bang hơn B");
+            }
+            else if(A > B){
+                Console.WriteLine("A lon hon B");
             }
             else
             {
-                Console.WriteLine("a nho hơn 20");
+                Console.WriteLine("A nho hon B");
             }
-            Console.WriteLine("Gia tri cua a la: {0}", a);
+              
+            
+        
             Console.ReadLine();
 
             Console.ReadKey();
