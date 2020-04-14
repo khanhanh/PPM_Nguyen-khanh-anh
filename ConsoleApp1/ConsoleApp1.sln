@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switchdemo", "switchdemo\sw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vong_lap", "vong_lap\vong_lap.csproj", "{7B2B8CFC-F1D6-4A50-A5B0-B29EBD90FD64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mang", "mang\mang.csproj", "{F03E3732-7238-44C7-96F5-128E554CC5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDemo", "ClassDemo\ClassDemo.csproj", "{6E9067FE-5067-47FD-8991-A7F4D23A9154}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{7B2B8CFC-F1D6-4A50-A5B0-B29EBD90FD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B2B8CFC-F1D6-4A50-A5B0-B29EBD90FD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B2B8CFC-F1D6-4A50-A5B0-B29EBD90FD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03E3732-7238-44C7-96F5-128E554CC5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03E3732-7238-44C7-96F5-128E554CC5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03E3732-7238-44C7-96F5-128E554CC5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03E3732-7238-44C7-96F5-128E554CC5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9067FE-5067-47FD-8991-A7F4D23A9154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9067FE-5067-47FD-8991-A7F4D23A9154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9067FE-5067-47FD-8991-A7F4D23A9154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9067FE-5067-47FD-8991-A7F4D23A9154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
